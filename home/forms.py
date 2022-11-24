@@ -7,4 +7,7 @@ class ContactForm(forms.ModelForm):
         model = Contact
         fields = ['full_name', 'email', 'message']
 
-    
+
+        # full_name = models.CharField(max_length= 50)
+        # email = model s.EmailField()
+        # message = models.TextField()   
